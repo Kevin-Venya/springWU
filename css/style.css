@@ -1,0 +1,44 @@
+#container{
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd'
+    'sc1 sc2 sc3'
+    'ft ft ft';
+    grid-template-rows: 8% 84% 8%;
+    grid-template-columns: 100%;
+    background-color: #fdffd2;
+    border-radius: 10px;
+    height: 200vh;
+    gap: 20px;
+    margin: 0;
+    border-color: black;
+}
+
+header{
+    grid-area: hd;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#section1{
+    grid-area: sc1;
+    background-color: white;
+    border-radius: 50px;
+}
+#section2{
+    grid-area: sc2;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#section3{
+    grid-area: sc3;
+    background-color: white;
+    border-radius: 50px;
+}
+
+footer{
+    grid-area: ft;
+    background-color: white;
+    border-radius: 50px;
+}
