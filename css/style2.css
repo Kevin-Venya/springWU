@@ -7,10 +7,47 @@
     'sc2'
     'sc3'
     'ft';
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 400px 400px 400px 150px;
+    gap: 20px;
+    height: 200vh;
+    background-color: #fdffd2;
 }
 
 header{
     grid-area: hd;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#section1{
+    grid-area: sc1;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#section2{
+    grid-area: sc2;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#section3{
+    grid-area: sc3;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#footer{
+    grid-area: ft;
     background-color: white;
     border-radius: 50px;
     display: flex;
