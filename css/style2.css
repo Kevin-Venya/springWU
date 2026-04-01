@@ -53,3 +53,12 @@ header{
     display: flex;
     align-items: center;
 }
+
+
+@media(min-width:1000px){ 
+
+    #container{
+        height:200vh;
+        grid-template-rows: ;
+    }
+}

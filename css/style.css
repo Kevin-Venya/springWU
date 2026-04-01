@@ -26,6 +26,7 @@ header{
     border-radius: 50px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
 .empty{
@@ -41,6 +42,7 @@ header{
     text-align: center;
     font-size: 22px;
     font-family: 'Playfair Display', serif;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
 #section1_img{
@@ -59,6 +61,7 @@ header{
     text-align: center;
     font-size: 22px;
     font-family: 'Playfair Display', serif;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
 #section2_img{
@@ -76,6 +79,7 @@ header{
     text-align: center;
     font-size: 22px;
     font-family: 'Playfair Display', serif;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
 #section3_img{
@@ -95,6 +99,7 @@ header{
     font-family: 'Playfair Display', serif;
     padding-left: 20px;
     padding-right: 20px;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
 #section5{
@@ -107,6 +112,7 @@ header{
     font-family: 'Playfair Display', serif;
     padding-left: 20px;
     padding-right: 20px;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
 #section6{
@@ -119,6 +125,7 @@ header{
     font-family: 'Playfair Display', serif;
     padding-left: 20px;
     padding-right: 20px;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
 footer{
@@ -126,6 +133,7 @@ footer{
     background-color: white;
     border-radius: 50px;
     text-align: center;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
 
@@ -137,8 +145,8 @@ footer{
 
 .menu{
     height: 100vh;
-    width: 80vw;
-    background: hotpink;
+    width: 20vw;
+    background:white;
     position: fixed;
     top: 0;
     left: -90vw;
