@@ -2,17 +2,15 @@
 #container{
     display: grid;
     grid-template-areas: 
-    'hd'
-    'sc1'
-    'sc2'
-    'sc3'
-    'ft';
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px 370px 370px 370px 200px;
+    'hd hd'
+    'sc1 sc1'
+    'sc2 sc3'
+    'ft ft';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 300px 500px 200px;
     gap: 20px;
-    height: 200vh;
+    
     background-color: #fdffd2;
-    overflow: hidden;
 }
 
 header{
@@ -25,12 +23,20 @@ header{
     box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
 }
 
+#bigtext{
+    
+}
+
+#smalltext{
+    display: none;
+}
+
 #section1{
     grid-area: sc1  ;
     background-color: white;
     border-radius: 50px;
     overflow: hidden;
-    text-align: center;
+    align-items: center;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
     padding-left: 20px;
@@ -84,7 +90,7 @@ header{
         'ft';
         
         background-color: #fdffd2;
-        grid-template-rows: 400px 650px 650px 650px 200px;
+        grid-template-rows: 200px 450px 450px 450px 200px;
         width: 100vw;  
         overflow: hidden;
     }
@@ -109,7 +115,6 @@ header{
         align-items: center;
     }
 
-    
     #section1{
         width: 100vw;  
     }
@@ -126,3 +131,4 @@ header{
         width: 100vw;
     }
 }
+
